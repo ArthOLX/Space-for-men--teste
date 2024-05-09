@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato - Barbearia Space for Men</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="caixa">
+            <h1><img src="./logo.png" alt="logo"></h1>
+
+            <div class="menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produto.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <Main>
+
+        <form action="">
+
+            <label for="nomeSobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="Seu e-mail">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="68" rows="10" class="input-padrao"></textarea>
+
+            <fieldset>
+
+                <legend>Qual o horário que você prefere ser atendido?</legend>
+
+                <select name="" id="">
+
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Como prefere o nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" id="contato">E-mail</label>
+                <label for="radio-telefone"><input type="radio" id="telefone">E-mail</label>
+                <label for="radio-whatsapp"><input type="radio" id="whatsapp" checked>WhatsApp</label>
+                <label for="box" class="box"><input type="radio" id="box">Gostaria de receber nossas
+                    notificações?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </fieldset>
+
+        </form>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Segunda-Feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Quarta-Feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta-Feira</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </Main>
+
+    <footer>
+
+        <img src="./logo-branco.png" alt="logo-branco">
+        <p class="copy">&copy;Copyright Barbearia Space for Men</p>
+
+    </footer>
+
+</body>
+
+</html>

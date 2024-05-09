@@ -1,0 +1,130 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+
+nav {
+    position: absolute;
+    top: 126px;
+    right: 0px;
+    padding-right: 15%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-shadow: 0 0 30px;
+    font-size: 24px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    margin-top: 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.box {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 8px 0;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateX(-30px);
+    }
+}
+
+.enviar:hover {
+    background: darkorange;
+    text-shadow: #fff8f8 0 0 30px;
+    box-shadow: orange 0 0 30px;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #fff;
+    font-weight: bolder;
+}
+
+td,
+th {
+    border: solid 1px #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url(./bg.jpg);
+    padding: 40px 0;
+}
+
+.copy {
+    color: #c78c19;
+    font-size: 13px;
+}
